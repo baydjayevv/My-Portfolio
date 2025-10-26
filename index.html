@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nurxan Baydjayev - Junior Developer specializing in Telegram bots and websites">
+    <title>Nurxan Baydjayev - Junior Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>NB</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-text">NB</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#home" class="nav-link" data-translate="nav.home">Home</a>
+                    <a href="#about" class="nav-link" data-translate="nav.about">About</a>
+                    <a href="#skills" class="nav-link" data-translate="nav.skills">Skills</a>
+                    <a href="#projects" class="nav-link" data-translate="nav.projects">Projects</a>
+                    <a href="#contact" class="nav-link" data-translate="nav.contact">Contact</a>
+                </nav>
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en" title="English">
+                        <span class="flag" aria-hidden="true">
+                            <img src="assets/flags/uk.svg" alt="UK flag" class="flag-img">
+                        </span>
+                        <span class="sr-only">English</span>
+                    </button>
+                    <button class="lang-btn" data-lang="ru" title="Русский">
+                        <span class="flag" aria-hidden="true">
+                            <img src="assets/flags/ru.svg" alt="Russian flag" class="flag-img">
+                        </span>
+                        <span class="sr-only">Русский</span>
+                    </button>
+                    <button class="lang-btn" data-lang="uz" title="O'zbek">
+                        <span class="flag" aria-hidden="true">
+                            <img src="assets/flags/uz.png" alt="Uzbekistan flag" class="flag-img">
+                        </span>
+                        <span class="sr-only">O'zbek</span>
+                    </button>
+                    <button class="lang-btn" data-lang="tm" title="Türkmen">
+                        <span class="flag" aria-hidden="true">
+                            <img src="assets/flags/tm.webp" alt="Turkmenistan flag" class="flag-img">
+                        </span>
+                        <span class="sr-only">Türkmen</span>
+                    </button>
+                </div>
+                <!-- Theme toggle -->
+                <button id="themeToggle" class="theme-toggle" title="Toggle day/night" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <h1 class="home-title" data-translate="home.name">Nurxan Baydjayev</h1>
+                <p class="home-subtitle" data-translate="home.subtitle">Junior Developer — Telegram Bots & Websites</p>
+                <p class="home-bio" data-translate="home.bio">I started learning programming about a year ago. Since then, I've been building Telegram bots and simple websites while improving my front-end and Python skills.</p>
+                <div class="home-buttons">
+                    <a href="https://github.com/baydjayevv" target="_blank" class="btn btn-primary" data-translate="home.viewGithub">View GitHub</a>
+                    <a href="#contact" class="btn btn-secondary" data-translate="home.contactMe">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-translate="about.title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-translate="about.para1">I began learning programming one year ago. I enjoy solving real-world problems with code and exploring how things work behind the scenes.</p>
+                    <p data-translate="about.para2">I'm still in the early stages of my developer journey, but I'm focused on learning and growing every day.</p>
+                    <p data-translate="about.para3">I can speak English, Russian, Uzbek, and Turkmen fluently.</p>
+                </div>
+                <div class="about-image">
+                    <div class="avatar-placeholder">NB</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-translate="skills.title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🟧</div>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔷</div>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💛</div>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Telegram Bot API</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-translate="projects.title">Projects</h2>
+            <div class="projects-content">
+                <p class="projects-text" data-translate="projects.text">I don't have published projects yet, but I'm currently learning and working on my own small experiments. You can check my GitHub for updates.</p>
+                <a href="https://github.com/baydjayevv" target="_blank" class="btn btn-primary" data-translate="projects.viewGithub">View GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.title">Contact Me</h2>
+            <div class="contact-grid">
+                <a href="https://t.me/baydjayevv" target="_blank" class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3>Telegram</h3>
+                    <p>@baydjayevv</p>
+                </a>
+                <a href="mailto:nurxan314@gmail.com" class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>nurxan314@gmail.com</p>
+                </a>
+                <a href="https://github.com/baydjayevv" target="_blank" class="contact-card">
+                    <div class="contact-icon">💻</div>
+                    <h3>GitHub</h3>
+                    <p>github.com/baydjayevv</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-translate="footer.text">© 2025 Nurxan Baydjayev — All rights reserved.</p>
+            <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+                <span>↑</span>
+            </button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
